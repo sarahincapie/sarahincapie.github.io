@@ -1,0 +1,187 @@
+    body  {
+
+    width: 100%;
+    background: #fff;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 200;
+}
+
+  h1 {
+ font-size: 40px;
+}
+
+
+  h2 {
+ font-size: 30px;
+}
+
+#page-container {
+    width: 100%;
+    margin: auto;
+
+}
+
+
+
+nav {
+    background-color: #fff;
+    margin: 50px;
+    overflow: hidden;
+}
+
+	nav ul {
+margin: 0;
+padding: 0;
+
+
+}
+
+nav ul li {
+    /* This allow us to arrange list items in a row, without using float */
+    list-style-type: none;
+
+}
+
+ 
+
+/* Create a style for the first level items */
+
+nav > ul > li > a {
+    color: #000 !important;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+
+#header {
+height: 550px;
+width:100%;
+text-align: center;
+font-weight: 100 !important;
+font-family: font-family: 'Arimo', sans-serif !important;
+}
+
+  
+#textwrap {
+margin:50px;
+}
+
+
+#sidebar-a {
+background: #2afd9d;
+
+}
+
+ 
+#content {
+
+  background: yellow;
+}
+
+ 
+#footer {
+text-align: center;
+ background: #dda0dd;
+ height: 66px;
+}
+
+
+#stack1 {
+
+border-bottom: 3px solid #ffff00;
+
+}
+
+
+
+#stack2 {
+
+border-bottom: 3px solid #40e0d0;
+
+}
+
+#stack3 {
+
+border-bottom: 3px solid #ffa500;
+
+}
+
+#stack4 {
+
+border-bottom: 3px solid #dda0dd;
+
+}
+
+#stack5 {
+
+border-bottom: 3px solid #2afd9d !important;
+
+}
+
+#stack6 {
+
+text-decoration: none !important;
+color: black;
+
+}
+
+a:link {
+    color: #000;
+    text-decoration: none !important;
+
+}
+
+a:visited {
+    color: #000;
+    text-decoration: none !important;
+
+}
+
+a:hover {
+  border-bottom: 4px solid #9f637e !important;
+  text-decoration: none !important;
+
+}
+
+#footer {
+    color: #000 !important;
+
+}
+
+
+
+ /* HAMBURGER START */
+
+.menu-btn div {
+ position: absolute;
+ left: 100%;
+ top: 64%;
+ padding-right: 8px;
+ margin-top: -0.50em;
+ line-height: 1.2;
+ font-size: 18px;
+ font-weight: 200;
+ vertical-align: middle;
+ z-index: 99;
+}
+ 
+.menu-btn span {
+ display: block;
+ width: 19px;
+ height: 3px;
+ margin: 4px 0;
+ background: rgb(0,0,0);
+ z-index: 99;
+}
+ 
+.responsive-menu{
+ display: none;
+
+}
+ 
+.expand {
+ display: block !important; 
+}
+
